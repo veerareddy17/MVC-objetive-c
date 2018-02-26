@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecViewController.h
 //  MVC
 //
 //  Created by Vera on 2/9/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
-
+@interface SecViewController : UIViewController
 
 @end
-

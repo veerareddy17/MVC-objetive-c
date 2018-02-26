@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomCell.h
 //  MVC
 //
 //  Created by Vera on 2/9/18.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
-
+@interface CustomCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *name;
 
 @end
-
